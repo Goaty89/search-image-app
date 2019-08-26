@@ -1,0 +1,12 @@
+.imagesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .imagesContainer>div {
+    flex: 1 1 30%;
+  }
+
+  .imagesContainer img {
+    width: 250px;
+  }
